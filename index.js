@@ -147,3 +147,18 @@ function displayData(titleName, result,) {
   container.appendChild(tr);
   serial++;
 }
+
+
+
+// *---------------Card Random Background Changing-----------------*//
+// *--------------------------------------------------------------*//
+
+const cards = document.querySelectorAll('.card');
+cards.forEach(card => {
+  card.addEventListener('mouseover', function() {
+    const randomColor = Math.floor(Math.random()*16777215).toString(16);
+    card.style.backgroundColor = '#' + randomColor;
+  });
+});
+
+
