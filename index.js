@@ -126,3 +126,24 @@ document.getElementById("fourth-card").addEventListener("click", function(){
       // console.log(ellipseFirstInput, ellipseSecondInput)
       displayData(titleName, result);
       })
+
+
+      
+// *---------------common function to display data-----------------*//
+// *--------------------------------------------------------------*//         
+
+function displayData(titleName, result,) {
+  const container = document.getElementById("table-container");
+  const tr =  document.createElement("tr");
+  tr.innerHTML = `
+  <td>${serial}</td>
+  <td>${titleName}</td>
+  <td>${result}cm²</td>
+  <td>
+  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded">
+      Convert to m<sup>2</sup>
+    </td>
+  `;
+  container.appendChild(tr);
+  serial++;
+}
