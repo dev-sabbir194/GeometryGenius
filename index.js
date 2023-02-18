@@ -10,7 +10,7 @@ document.getElementById("first-card").addEventListener("click", function(){
   const triangleSecondInput = document.getElementById("input-2").value;
   const area = (0.5);
   const condition = area * parseInt(triangleFirstInput) * parseInt(triangleSecondInput);
-  const result = condition;
+  const result = condition.toFixed(2);
 // ------------------validation-------------------//
   const inputOne = parseFloat(triangleFirstInput);
   const inputTwo = parseFloat(triangleSecondInput);
@@ -28,7 +28,7 @@ document.getElementById("first-card").addEventListener("click", function(){
     const rectangleFirstInput = document.getElementById("input-3").value;
     const rectangleSecondInput = document.getElementById("input-4").value; 
     const condition = parseInt(rectangleFirstInput) * parseInt(rectangleSecondInput);
-    const result = condition;
+    const result = condition.toFixed(2);
     // -----------------validation---------------//
     const inputOne = parseFloat(rectangleFirstInput);
     const inputTwo = parseFloat(rectangleSecondInput); 
@@ -49,7 +49,7 @@ document.getElementById("first-card").addEventListener("click", function(){
       const parallelogramFirstInput = document.getElementById("input-5").value;
       const parallelogramSecondInput = document.getElementById("input-6").value;
       const condition = parseInt(parallelogramFirstInput) * parseInt(parallelogramSecondInput);
-      const result = condition;
+      const result = condition.toFixed(2);
 // ---------------------validation-----------------------//
       const inputOne = parseFloat(parallelogramFirstInput);
       const inputTwo = parseFloat(parallelogramSecondInput);  
@@ -70,7 +70,7 @@ document.getElementById("first-card").addEventListener("click", function(){
         const rhombusSecondInput = document.getElementById("input-8").value;
         const firstnumber = (0.5);
         const condition = firstnumber * parseInt(rhombusFirstInput) * parseInt(rhombusSecondInput);
-        const result = condition;
+        const result = condition.toFixed(2);
   // ---------------------validation--------------------//
         const inputOne = parseFloat(rhombusFirstInput);
         const inputTwo = parseFloat(rhombusSecondInput);
@@ -91,7 +91,7 @@ document.getElementById("first-card").addEventListener("click", function(){
           const pentagonSecondInput = document.getElementById("input-10").value;
           const firstnumber = (.05);
           const condition = firstnumber * parseInt(pentagonFirstInput) * parseInt(pentagonSecondInput)
-          const result = condition;
+          const result = condition.toFixed(2);
 // ------------------------validation----------------------//
           const inputOne = parseFloat(pentagonFirstInput);
           const inputTwo = parseFloat(pentagonSecondInput);
