@@ -1,2 +1,2 @@
 
-![stellular-treacle-9f0c3f netlify app_](https://github.com/dev-sabbir194/GeometryGenius/assets/121635899/45b9968d-f72a-47fd-8871-b160a2193226)
+![stellular-treacle-9f0c3f netlify app_ (1)](https://github.com/dev-sabbir194/GeometryGenius/assets/121635899/fdd38cc8-9e79-4711-9f82-02d0576c64a8)
